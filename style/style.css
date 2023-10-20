@@ -1,0 +1,177 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Hanken Grotesk', sans-serif;
+    font-family: 'Outfit', sans-serif;
+}
+.container {
+    position: relative;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    width: 700px;
+    border-radius: 25px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -ms-border-radius: 25px;
+    -o-border-radius: 25px;
+    overflow: hidden;
+    box-shadow: 13px 17px 20px 11px #eee;
+    flex-wrap: wrap;
+    margin: 60px 0;
+}
+.attribution {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+    font-size: 11px;
+    color: hsl(228, 45%, 44%);
+}
+.box {
+    padding: 40px 20px;
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 500px;
+    justify-content: space-between;
+    border-radius: 25px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -ms-border-radius: 25px;
+    -o-border-radius: 25px;
+}
+.box-result {
+    /* background: rgb(78,33,202); */
+    background: linear-gradient(0deg, rgba(46,43,233,1)  ,  rgba(120,87,255,1)  );
+    color: white;
+    text-align: center;
+}
+.result-text {
+    font-size: 24px;
+    color: hsl(241, 100%, 89%);
+}
+.great {
+    font-size: 30px ;
+}
+.box-result .circle {
+    background: linear-gradient(180deg, rgba(46,43,233,1), rgb(78,33,202)  , rgba(120,87,255,1) );
+    width: 170px;
+    height: 170px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.box-result .circle .number-of {
+    font-size: 50px;
+    font-weight: bold;
+}
+.box-result .circle .number {
+    color: hsl(241, 100%, 89%);
+}
+.box-summary {
+    background-color: white;
+}
+.box-result .paragraph {
+    color: hsl(241, 100%, 89%);
+    width: 70%;
+}
+.box-summary .summary-text {
+    color: hsl(224, 30%, 27%);
+    align-self: flex-start;
+    font-size: 24px;
+    font-weight: 600;
+}
+.button {
+    width: 100%;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+    border: none;
+    padding: 20px;
+    color: white;
+    background-color: hsl(224, 30%, 27%);
+    font-weight: 600;
+}
+.summary {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+}
+.summary .item {
+    display: flex;
+    padding: 20px;
+    background-color: hsl(221, 100%, 96%);
+    width: 100%;
+    justify-content: space-between  ;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.summary .item.one {
+    background-color: hsla(0, 100%, 67%, 10%);
+}
+.summary .item.one .name {
+    color: hsl(0, 100%, 67%);
+}
+.summary .item .number{
+    color: black;
+    font-weight: bold;
+}
+.summary .item .number span{
+    color: hsla(224, 30%, 27%, 0.637);
+    font-weight: 600;
+}
+.summary .item .name {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.summary .item .name img {
+    align-self: center;
+}
+.summary .item.two{
+    background-color: hsl(39, 100%, 56%, 10%)
+}
+.summary .item.two .name{
+    color: hsl(39, 100%, 56%)
+}
+.summary .item.three{
+    background-color: hsl(166, 100%, 37%, 10%);
+}
+.summary .item.three .name{
+    color: hsl(166, 100%, 37%);
+}
+.summary .item.four{
+    background-color: hsl(234, 85%, 45%, 10%);
+}
+.summary .item.four .name{
+    color: hsl(234, 85%, 45%);
+}
